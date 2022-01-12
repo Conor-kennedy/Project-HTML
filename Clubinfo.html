@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+ <title>Club Information</title>
+
+<style>
+     
+p {      
+    padding: 10px;
+    margin: 40px;    
+    } 
+    
+/* For each of these tables, I paid close attention to W3Schools website in terms of how they did it - https://www.w3schools.com/css/css_table.asp. Changed it up to suit my website style */
+    
+table {
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  padding: 15px;
+    width: 33%;
+}
+
+.strategy {
+    background-color: lightgrey;
+    border: 10px solid navy;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    margin: 3%;
+    }
+
+.committee_table {
+     margin-right: 3%;
+     margin-left: 3%;
+    }
+    
+    .strategy p {
+        font-size: 40px;
+    }
+    
+    @media only screen and (max-width: 1010px) {
+  .strategy p {
+   font-size: 15px;
+    padding: 5px;
+  }
+        .strategy {
+            padding: 10px;
+        }
+        
+         th, td {
+        padding: 5px;
+        font-size: 12px;
+    }
+     
+    }
+    
+</style>
+    
+</head>
+
+<body>
+    
+<!---Navigation bar--->
+    
+    <div><center><a href="index.html"><img class="logoo" src="Images/ballyboden-logo.jpeg" alt="Ballyboden Logo and title"></a></center> 
+            </div>  
+    
+    
+		<nav>
+           
+                 <a href="index.html"><img class="logo" src="Images/ballyboden-logo.jpeg" alt="Ballyboden Logo and title"></a>
+         
+    
+    
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Fixtures.html">Fixtures</a>
+					<ul>
+						<li><a href="Fixtures.html#hurling">Hurling</a>
+						<li><a href="Fixtures.html#camogie">Camogie</a></li>
+						<li><a href="Fixtures.html#menssfootball">Men's Football</a></li>
+                        <li><a href="Fixtures.html#lfootball">Ladies Football</a></li>
+					</ul>
+				</li>
+				<li><a href="Facilities.html">Facilities</a></li>
+				<li><a href="Clubinfo.html">Club Info</a>
+				<li><a href="Contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+ 
+<h1>Club History</h1>
+    
+<p>The club was founded in 1969 from the merger of Ballyboden Wanderers and Rathfarnham St. Endas. The clubhouse is located on the Firhouse Road. With over 100 teams from juvenile up to adults playing hurling, mens football, ladies football and camogie, it is one of the largest GAA clubs in the country. In recent years, the club has been successful winning county championships at adult level in all four codes including one All Ireland Football Championship in 2016. There are a number of facilities to cater for the club members. Other events that are carried out throughout the year include snooker tournaments, golf outings, drama and music.</p>
+  
+
+<div>
+<h1>Committee</h1>
+
+ <!--- For each of these tables, I paid close attention to W3Schools website in terms of how they did it - https://www.w3schools.com/css/css_table.asp. Changed it up to suit my website style --->   
+    
+    
+<div class="committee_table">  
+<table>
+    <tr>
+        <th>Role</th>
+        <th>Name</th>
+        <th>Contact Information</th>
+    </tr>
+    
+    <tr>
+        <td>Chairperson</td>
+        <td>Matthew Duignan</td>
+        <td>Matthew.Duignan@ballyboden.ie</td>
+    </tr>
+    <tr>
+        <td>Vice-Chairperson</td>
+        <td>Daniel McElavaney</td>
+        <td>McElvaneyDaniel@ballyboden.ie</td>
+    </tr>
+    <tr>
+        <td>Secretary</td>
+        <td>Ruairi Higgins</td>
+        <td>Higgins11@ballyboden.ie</td>
+    </tr>
+    <tr>
+        <td>Treasurer</td>
+        <td>Conor Flynn</td>
+        <td>Flynn_Conor1@ballyboden.ie</td>
+    </tr>
+    <tr>
+        <td>Registrar</td>
+        <td>Kalli McClean</td>
+        <td>Kalli@ballyboden.ie</td>
+    </tr>
+    <tr>
+        <td>Childrens' Officer</td>
+        <td>Katie Rooney</td>
+        <td>Katie@ballyboden.ie</td>
+    </tr>
+    <tr>
+        <td>Club PRO</td>
+        <td>Declan Murphy</td>
+        <td>Declan@ballyboden.ie</td>
+    </tr>
+</table>
+</div>
+</div>  
+
+<h1>Strategic Plan</h1>
+    
+    <div class='strategy'>
+        <p><b>"To increase the level of children participation in sport and help players reach their full potential."</b></p>
+    </div>
+    
+<!--- For the footer I used a Youtube video titled "Responsive Footer Design using HTML & CSS" - https://www.youtube.com/watch?v=YOb67OKw62s. The video also supplied the code at https://drive.google.com/file/d/12DNl. I changed a fair bit of it around such as fonts, background colour, image logos and their hover transition, font-family etc. --->  
+
+    
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Website Links</h4>
+  	 			<ul class="links">
+        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Fixtures.html">Fixtures & Results</a></li>
+        <li><a href="Facilities.html">Facilities</a></li>
+        <li><a href="Clubinfo.html">Club Info</a></li>
+        <li><a href="Contactus.html">Contact Us</a></li>
+    </ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Important Links</h4>
+  	 			<ul class="importantlinks">
+        <li><a href="https://www.gaa.ie/" target="_blank">Official GAA Website</a></li>
+        <li><a href="https://ladiesgaelic.ie/" target="blank">LFGA</a></li>
+        <li><a href="https://camogie.ie/" target="_blank">Camogie Association</a></li>
+        <li><a href="https://auth.gaaservers.net/auth/realms/gaa/protocol/openid-connect/auth?client_id=gaa-direct&redirect_uri=https%3A%2F%2Freturntoplay.gaa.ie%2F&state=43e367cb-0ad7-434c-8c63-4f42e60a2447&response_mode=fragment&response_type=code&scope=openid&nonce=6ad0bf2f-98af-4eb0-bb93-f39c626a5831" target="_blank">Return to Play</a></li>
+    </ul>
+  	 		</div>
+  	 		
+  	 		<div class="footer-col">
+  	 			<h4>Follow us!</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.youtube.com/channel/UCsf67yGbSYS74akmh-OrKIA" target="_blank"><img src="Images/yticon.png" width="50" height="50"></a>
+  	 				<a href="https://twitter.com/Bodengaa" target="_blank"><img src="Images/twittericon.png" width="50" height="50"></a>
+  	 				<a href="https://www.instagram.com/bodengaa/?hl=en" target="_blank"><img src="Images/instaicon.png" width="50" height="50"></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+    
+  </footer>
+    
+ 
+</body>
+
+</html>
